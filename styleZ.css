@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    width: 600;
+    height: 750;
+}
+
+.photo{
+    width: 90%;
+}
