@@ -1,15 +1,44 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 .about{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
 }
 
-img{
-    width: 600;
-    height: 750;
-}
+.img{
+   width: 35%;
+   height: 20%;
+   padding: 5rem;
+   margin-left: 8%;
+
+
+}   
+
+
 
 .photo{
+
     width: 90%;
+    margin-left: 5%;
+    position: relative;
+}
+
+
+.text{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    /* background-color: red; */
+    margin-left: 8%;
+}
+
+h2{
+    margin-bottom: 5rem;
 }
