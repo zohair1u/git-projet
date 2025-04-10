@@ -42,3 +42,35 @@
 h2{
     margin-bottom: 5rem;
 }
+
+footer{
+    background-color: #F1F1F1;
+    height: 8rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+
+.navbar
+{
+background-color: black;
+text-align: center;
+padding: 15px;
+display: flex;
+justify-content: center;
+gap: 2rem
+
+
+}
+.navbar
+{
+color: white;
+margin-right:5rem;
+text-decoration: none;
+width: 100%;
+}
+
